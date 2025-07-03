@@ -8,6 +8,9 @@ function App() {
     <>
       <CharacterEditor />
       <Footer />
+        <div className={styles.background}>
+            <div className={styles.topPart}/>
+        </div>
     </>
   );
 }
